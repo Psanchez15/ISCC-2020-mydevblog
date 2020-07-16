@@ -1,0 +1,61 @@
+<link rel="stylesheet" type="text/css" href="Ajout_utilisateur.css">
+<head>
+    <header>
+        <title>MyDevBlog</title>
+        <h1>S'inscrire</h1>
+    </header>
+</head>
+<form method="post" action="traitement.php">
+    <meta charset="utf-8">
+    <div>
+        <label for="lastname">Nom</label>
+        <input type="text" id="name" name="lastname">
+    </div>
+    <div>
+        <label for="firstname">Prenom</label>
+        <input type="text" id="title" name="firstname">
+    </div>
+    <div>
+        <label for="date">Date de naissance :</label>
+        <input type="date" id="date" name="birthday">
+    </div>
+    <div>
+        <label for="tel">Numéro de téléphone :</label>
+        <textarea id="tel" name="phone_number"></textarea>
+    </div>
+    <div>
+        <label for="email">Email :</label>
+        <textarea id="email" name="email_adress"></textarea>
+    </div>
+    <INPUT type="radio" name="genre" value="homme"> Homme<BR>
+        <INPUT type="radio" name="genre" value="femme"> Femme<BR>
+    <p>
+        <label for="pays">Dans quel pays habitez-vous ?</label><br />
+        <select name="pays" id="pays">
+            <optgroup label="Europe">
+                <option value="france">France</option>
+                <option value="espagne">Espagne</option>
+                <option value="italie">Italie</option>
+                <option value="royaume-uni">Royaume-Uni</option>
+            </optgroup>
+            <optgroup label="Amérique">
+                <option value="canada">Canada</option>
+                <option value="etats-unis">Etats-Unis</option>
+            </optgroup>
+            <optgroup label="Asie">
+                <option value="chine">Chine</option>
+                <option value="japon">Japon</option>
+            </optgroup>
+        </select>
+    </p>
+ </form>
+ <div class="button">
+    <button type="submit">Créer mon profil</button>
+</div></br></br>
+<footer>
+    <nav>
+        <a href="https://github.com/Psanchez15">Github</a>
+        <a href="https://www.linkedin.com/in/paola-sanchez-723ba0185/">Linkedin</a>
+    </nav>
+
+</footer>

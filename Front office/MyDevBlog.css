@@ -1,0 +1,88 @@
+@font-face{
+    font-family: "nasalization";
+    src : url("C:\Users\Sanchez\Documents\Iseg\ISCC-2020\ISCC-2020\Jour-01\ISCC-2020-mydevblog\nasalization-rg.ttf");
+}
+
+header{
+    background-image: url('Fleur\ 3.jpg');
+    width:max-content;
+ 
+}
+
+h1{
+    color: palevioletred; 
+   background-color: whitesmoke;
+   size: 15px;
+    text-align: center;
+    font-style: italic;
+}
+
+.pages {
+    text-align: right;
+    font-family: fantasy;
+}
+.pages{
+    background-color: white;
+}
+
+body{
+    background-color: pink;
+}
+
+h2{
+    color: whitesmoke;
+    text-shadow: 2px 2px 8px plum;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+}
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid whitesmoke;
+    border-radius: 1em;
+  }
+  form div + div {
+    margin-top: 1em;
+  }
+  
+  label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+  }
+  
+  input:focus, textarea:focus {
+    
+    border-color: #000;
+  }
+  
+  textarea {
+   
+    vertical-align: top;
+  
+   
+    height: 5em;
+  }
+  .button {
+    padding-right: 90px; 
+    text-align: center;
+    padding-top: 100px;
+  }
+  
+  button {
+    margin-left: .5em;
+  }
+  ul{
+    border-style: dotted;
+    padding: 10px;
+    box-shadow: 5px 10px palevioletred;
+  }
+  

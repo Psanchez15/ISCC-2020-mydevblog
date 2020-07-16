@@ -1,0 +1,35 @@
+header{
+    background-image: url('Fleur\ 3.jpg');
+    width:max-content;
+ 
+}
+
+h1{
+    color: palevioletred; 
+    background-color: whitesmoke;
+   size: 15px;
+    text-align: center;
+}
+
+.pages {
+    text-align: right;
+    font-family: fantasy;
+}
+
+body{
+    background-color: pink;
+}
+
+h2{
+    color: whitesmoke;
+    text-shadow: 2px 2px 8px plum;
+    font-family: 'Courier New', Courier, monospace;
+}
+.cadre_image{
+padding: 50px;
+width: 100px;
+}
+p{
+    text-align: center;
+    padding-top: 15px;
+}
